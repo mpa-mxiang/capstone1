@@ -186,33 +186,31 @@ label {
   color: #fff;
 }
 
-.about ul {
+.about #programs {
   display: flex;
   flex-direction: row;
   background-color: #383b4277;
   padding: 3rem;
 }
 
-.about ul li {
+.about #programs .program {
   font-family: "Inter", sans-serif;
   align-self: center;
 }
 
-.about ul li img {
+.about #programs .program img {
   width: 2rem;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 2rem;
 }
 
-.about ul li h2 {
+.about #programs .program h2 {
   color: #ec5242;
   font-size: calc(1.325rem + .9vw);
   text-align: center;
 }
 
-.about ul li p {
+.about #programs .program p {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
