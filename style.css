@@ -186,11 +186,39 @@ label {
   color: #fff;
 }
 
-.about .list ul li {
-  color: #fff;
+.about ul {
+  display: flex;
+  flex-direction: row;
+  background-color: #383b4277;
+  padding: 3rem;
+}
+
+.about ul li {
   font-family: "Inter", sans-serif;
-  font-size: 22px;
-  line-height: 6vh;
+  align-self: center;
+}
+
+.about ul li img {
+  width: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+
+.about ul li h2 {
+  color: #ec5242;
+  font-size: calc(1.325rem + .9vw);
+  text-align: center;
+}
+
+.about ul li p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
 }
 
 #menu {
@@ -255,7 +283,7 @@ label {
 .intro {
   background: #1c1a19;
   width: 100%;
-  background:url(./img/landing-page.jpg) center no-repeat;
+  background: url(./img/landing-page.jpg) center no-repeat;
   display: flex;
   flex-direction: column;
   padding: 5rem 1rem;
@@ -335,7 +363,7 @@ footer ul {
 .intro h3 {
   color: #fff;
   font-family: "Lato", sans-serif;
-  margin-top: -3vw;
+  margin-top: 0;
   width: 80%;
   font-size: 3rem;
   font-weight: 600;
