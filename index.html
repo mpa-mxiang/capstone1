@@ -10,214 +10,186 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Jiachun's Profolio Website</title>
+
+    <title>AISRC</title>
 </head>
 
 <body>
     <nav>
         <div class="navbar">
             <div class="logo">
-        <h1 class="nav-heading" aria-label="Jiachun" tabindex="1"><a href="#intro">Jiachun</a></h1>
-    </div>
-    <button type="button" class="menu-close" aria-controls="menu" ><img src="./img/close-icon.png"/>
-    </button>
-        <button type="button" id="toggle" class="toggle" aria-controls="menu" >
-            <span class="sr-only">Menu</span>
-        </button>
-        <ul id="menu" class="menu-inactive">
-            <li>
-                <a class="nav-item" href="#works" tabindex="3">Profolio</a></li>
-            <li>
-                <a class="nav-item" href="#about" tabindex="4">About</a></li>
-            <li>
-                <a class="nav-item" href="#contact" tabindex="5">Contact</a></li>
-            <li >
-                <a href="mailto: jcxiang1230@gmail.com" tabindex="6"><img class="header-desktop" src="./img/mail.png" alt="mail-icon" /></a>
-            </li>
-        </ul>
-    </div>
+                <h1 class="nav-heading" aria-label="AISRC" tabindex="1"><a href="#intro">AISRC</a></h1>
+            </div>
+            <button type="button" class="menu-close" aria-controls="menu"><img src="./img/close-icon.png" />
+            </button>
+            <button type="button" id="toggle" class="toggle" aria-controls="menu">
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul id="menu" class="menu-inactive">
+                <li>
+                    <a class="nav-item" href="#about" tabindex="3">About</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="4">Agenda</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="5">Join</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="6">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div id="wrapper">
 
-    <section class="intro" id="intro" tabindex="7">
-        <div class="intro-text">
-            <h1 aria-label="Hey There. I'm Jiachun" >
-                Hey There. <br />
-                I'm Jiachun
-            </h1>
-            <h2 aria-label="I'm a Software Developer" >I'm a Software Developer</h2>
-            <p aria-label="I can help you build a product , feature or website Look through some of
-            my work and experience! If you like what you see and have a project you
-            need coded, don’t hestiate to contact me." >
-                I can help you build a product , feature or website Look through some of
-                my work and experience! If you like what you see and have a project you
-                need coded, don’t hestiate to contact me.
-            </p>
-        </div>
-        <ul>
-            <li>
-                <a href="https://github.com/mpa-mxiang" target="_blank" rel="noopener noreferrer" tabindex="8"><img src="./img/github.png" alt="github-icon" /></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/jiachunlilyxiang/" target="_blank" rel="noopener noreferrer" tabindex="9"><img src="./img/Icon - Linkedin.png" alt="github-icon" /></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" tabindex="10"><img src="./img/yeah.png" rel="noopener noreferrer" alt="angellist-icon" /></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" tabindex="11"><img src="./img/twitter.png" rel="noopener noreferrer" alt="twitter-icon" /></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" tabindex="12"><img src="./img/m.png" rel="noopener noreferrer" alt="medium-icon" /></a>
-            </li>
-        </ul>
-    </section>
-    <section class="works" id="works">
-        <div class="works-desktop">
-            <h1 aria-label="My Recent works" >My Recent works</h1>
-            <hr />
-        </div>
-        <div id="projects">
+        <section class="intro" id="intro" tabindex="7">
+            <div class="intro-text">
 
-        </div>
-        <div id="div-container"></div>
-        <div id="popup-container"></div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="brief">
-            <div class="about-text">
-                <h1 aria-label="About me" >About me</h1>
-                <p aria-label="Hello I’m a software developer!
-                I can help you build a product,
-                feature or website Look through
-                some of my work and experience!
-                If you like what you see and
-                have a project you need coded,
-                don’t hestiate to contact me." >Hello I’m a software developer!
-                    I can help you build a product,
-                    feature or website Look through
-                    some of my work and experience!
-                    If you like what you see and
-                    have a project you need coded,
-                    don’t hestiate to contact me.
-                </p>
-                <button id="about-btn" type="button" aria-label="click here to see my resume" tabindex="15">Get My Resume</button>
-            </div>
-        </div>
-        <hr />
-        <div class="list-div">
-            <div class="list">
-                <h1 aria-label="Language" ><img src="./img/Rectangle 55.png" alt="rhombus-icon" />Language</h1>
-                <ul aria-label="Javascript, Ruby, Html, Css" >
-                    <li>
-                        Javascript
-                    </li>
-                    <li>
-                        Ruby
-                    </li>
-                    <li>
-                        Html
-                    </li>
-                    <li>
-                        Css
-                    </li>
-                </ul>
-            </div>
-            <div class="list">
-                <h1 aria-label="Frameworks" ><img src="./img/Rectangle 56.png" alt="rectangle-icon" />Frameworks</h1>
-                <ul aria-label="Boostrap, Ruby on rails, RSPec, CapyEara, Selenium">
-                    <li>
-                        Bootstrap
-                    </li>
-                    <li>
-                        Ruby on rails
-                    </li>
-                    <li>
-                        RSPec
-                    </li>
-                    <li>
-                        CapyEara
-                    </li>
-                    <li>
-                        Selenium
-                    </li>
-                </ul>
-            </div>
-            <div class="list">
-                <h1 aria-label="skills" ><img src="./img/Rectangle 57.png" alt="circle-icon" />Skills</h1>
-                <ul aria-label="Codekit, Github, Codepen, Gitlab. Terminal" >
-                    <li>
-                        Codekit
-                    </li>
-                    <li>
-                        Github
-                    </li>
-                    <li>
-                        Codepen
-                    </li>
-                    <li>
-                        Gitlab
-                    </li>
-                    <li>
-                        Terminal
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="contact" id="contact">
-        <div class="contact-div">
-            <div class="text-div">
-                <h1 aria-label="I'm always interested in hearing about new projects, so if you'd like to chat please get in touch." >I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                <h1 aria-label="Annual International Science Research Conference 2023" class="text-bg fw-bold p-1">
+                    Annual International
+                    <br />
+                    Science Research Conference 2023
                 </h1>
+                <h2 aria-label="Hello! Sharing world">"Hello! Sharing world"</h2>
+                <p aria-label="I can help you build a product , feature or website Look through some of
+            my work and experience! If you like what you see and have a project you
+            need coded, don’t hestiate to contact me.">
+                    A joyful celebreation believing in the value of openness and sharing creating a
+                    positive change with people from over 80 countries is taking place in February, in Australia.
+                </p>
+                <h3>
+                    2023.02.29-31
+                </h3>
+                <p id="address">
+                    @ Melboure Information University, Mcdonalds Building
+                </p>
             </div>
-            <div class="form-div">
-                <form action="https://formspree.io/f/mjvdabnn" method="POST" id="contact-form">
-                    <label for="name" aria-label="name"
-                >name*</label>
-                    <input aria-label="name" id="name" type="text" placeholder="Full name" maxlength="30" name="name" tabindex="16" required />
-                    <label for="email" aria-label="email"
-                    >email*</label>
-                    <input aria-label="email" id="email" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$" placeholder="Email address" name="email" required aria-label="email" tabindex="17"/>
-                    <label for="comments" aria-label="comments"
-                    >comments*</label>
-                    <textarea aria-label="comments" id="comments" placeholder="Enter text here" maxlength="500" name="message" required tabindex="18"></textarea>
-                    <button aria-label="submit" type="submit" value="Submit" tabindex="19">Get in touch</button>
-                    <p id="validate"></p>
-                </form>
+
+        </section>
+
+
+        <section class="about" id="about">
+            <h1>Main Programs</h1>
+            <hr />
+            <div class="list-div">
+                <div class="list">
+                    <h1 aria-label="Language"><img src="./img/Rectangle 55.png" alt="rhombus-icon" />Language</h1>
+                    <ul aria-label="Javascript, Ruby, Html, Css">
+                        <li>
+                            Javascript
+                        </li>
+                        <li>
+                            Ruby
+                        </li>
+                        <li>
+                            Html
+                        </li>
+                        <li>
+                            Css
+                        </li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h1 aria-label="Frameworks"><img src="./img/Rectangle 56.png" alt="rectangle-icon" />Frameworks</h1>
+                    <ul aria-label="Boostrap, Ruby on rails, RSPec, CapyEara, Selenium">
+                        <li>
+                            Bootstrap
+                        </li>
+                        <li>
+                            Ruby on rails
+                        </li>
+                        <li>
+                            RSPec
+                        </li>
+                        <li>
+                            CapyEara
+                        </li>
+                        <li>
+                            Selenium
+                        </li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h1 aria-label="skills"><img src="./img/Rectangle 57.png" alt="circle-icon" />Skills</h1>
+                    <ul aria-label="Codekit, Github, Codepen, Gitlab. Terminal">
+                        <li>
+                            Codekit
+                        </li>
+                        <li>
+                            Github
+                        </li>
+                        <li>
+                            Codepen
+                        </li>
+                        <li>
+                            Gitlab
+                        </li>
+                        <li>
+                            Terminal
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="works" id="works">
+            <div class="works-desktop">
+                <h1 aria-label="My Recent works">My Recent works</h1>
+                <hr />
+            </div>
+            <div id="projects">
 
-    <footer>
-        <ul>
-            <li>
-                <a href="https://github.com/mpa-mxiang" target="_blank" rel="noopener noreferrer" tabindex="20"><img src="./img/github-white.png" alt="github-icon" /></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/jiachunlilyxiang/" target="_blank" rel="noopener noreferrer" tabindex="21"><img src="./img/linkedin-white.png" alt="linkedin-icon" /></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" tabindex="22"><img src="./img/angellist-white.png" alt="angellist-icon" /></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" tabindex="23"><img src="./img/twitter-white.png" alt="twitter-icon" /></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" tabindex="24"><img src="./img/medium-white.png" alt="medium-icon" /></a>
-            </li>
-        </ul>
-    </footer>
+            </div>
+            <div id="div-container"></div>
+            <div id="popup-container"></div>
+        </section>
 
-</div>
+
+        <footer>
+            <div id="partners">
+                <h1>Partners</h1>
+                <hr />
+                <ul>
+                    <li>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" tabindex="20"><img
+                                src="./img/github-white.png" alt="github-icon" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" tabindex="21"><img
+                                src="./img/linkedin-white.png" alt="linkedin-icon" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.angellist.com/" target="_blank" tabindex="22"><img
+                                src="./img/angellist-white.png" alt="angellist-icon" /></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank" tabindex="23"><img src="./img/twitter-white.png"
+                                alt="twitter-icon" /></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/" target="_blank" tabindex="24"><img src="./img/medium-white.png"
+                                alt="medium-icon" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="infor">
+                    <img src="./img/logo.png" alt="AISRC Logo" />
+                    <div id="footer-info-text">
+                        <h1>AISRC</h1>
+                        <p>Annual International Science Research Conference</p>
+                    </div>
+                    <p>
+                        © AISRC 2023<br />
+                        Right Reserved<br />
+                        Since 1997 <br />
+                        Contact: aisrc@question.org
+                    </p>
+            </div>
+        </footer>
+
+    </div>
     <script src="menu.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>
