@@ -1,33 +1,31 @@
 const data = [{
     name: 'Neha Kapoor',
-    title: 'Professor at Melboure Information University',
-    description: `Head researcher for QNN, Quantum Neutral Network, an 
-    exploration of the relationship between Quantum Computing and Neutral Network.`,
+    title: 'Researcher at QNN',
+    description: `2022 World Unbelievable Science Innovation
+    Award Nominee, 2022 Nopel interdisciplinary Research Award.`,
     image: './img/p1.jpeg',
   },
   
   {
     name: 'Grace Vanderbilt',
     title: 'Founder, WinS at Melboure Information University',
-    description: `Inspiring young women to have their journey not also
-    in science, but also in other STEM field.`,
+    description: `2022 Most Outstanding Women in STEM Award, researcher
+    in psychology.`,
     image: './img/p2.jpeg',
   },
   
   {
     name: 'Aaliyah Williams',
     title: 'Director, BSS at Melboure Information University',
-    description: `Vice president at Melboure Information University, 
-    biochemical professor with research field of protein structure.`,
+    description: `Biochemical professor at TMI
+    with research field of protein structure.`,
     image: './img/p3.jpeg',
   },
   
   {
     name: 'Nathan Adams',
     title: 'CEO, Human Immnune Porject, Harvard.M.C',
-    description: `One of the founder for HIP, which helps people to 
-    reduce the chances of getting cancers for people with their 
-    exploration on biocomputing.`,
+    description: `One of the founder for HIP, bitomedical researcher.`,
     image: './img/p4.jpeg',
   },
   
@@ -43,9 +41,8 @@ const data = [{
   {
     name: 'Jean Fitzgerald',
     title: 'Head Manager, ODiSsey',
-    description: `She uses interesting and attractive ways to 
-    explore the science world for kids. Let inpirations around 
-    children's mind and have motivation to learn more.`,
+    description: `2022 Most Inspiring People Award, popular children
+    author for science reading.`,
     image: './img/p6.jpeg',
   },
 
