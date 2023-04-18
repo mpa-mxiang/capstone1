@@ -254,10 +254,6 @@ label {
   line-height: 16px;
 }
 
-#menu li:last-child {
-  display: none;
-}
-
 .logo {
   display: flex;
   width: 90px;
@@ -513,6 +509,7 @@ footer {
   background: #1c1a19;
   width: 100%;
   padding: 3rem 0;
+  margin-top: -10vw;
 }
 
 .about .brief {
@@ -951,6 +948,10 @@ footer #infor p {
 
   #validate {
     font-size: 4rem;
+  }
+
+  .about {
+    margin-top: 0;
   }
 
   .about #programs {
