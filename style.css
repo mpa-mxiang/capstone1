@@ -182,13 +182,16 @@ label {
 .about #programs {
   display: flex;
   flex-direction: column;
-  background-color: #383b4277;
   padding: 3rem;
 }
 
 .about #programs .program {
   font-family: "Inter", sans-serif;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #383b4277;
+  margin-bottom: 3rem;
 }
 
 .about #programs .program img {
@@ -236,7 +239,7 @@ label {
   color: hsla(40, 100%, 94%, 1);
 }
 
-#top-work ul li {
+.top-work ul li {
   box-sizing: border-box;
   border: 1px solid #8993a4;
   align-items: center;
@@ -368,12 +371,12 @@ footer {
   padding: 0 1.5rem;
 }
 
-#top-work {
+.top-work {
   display: flex;
   flex-direction: column;
 }
 
-#top-work h1 {
+.top-work h1 {
   color: #091e42;
 }
 
@@ -474,7 +477,7 @@ footer {
   margin: 0;
 }
 
-#top-work p {
+.top-work p {
   font-family: "Inter", sans-serif;
   line-height: 1.5em;
   color: #091e42;
@@ -493,7 +496,7 @@ footer {
   font-size: 6vw;
 }
 
-#top-work ul {
+.top-work ul {
   margin-left: -2.7rem;
   gap: 12px;
 }
@@ -582,8 +585,6 @@ footer hr,
 
 #infor {
   background-color: #3c3a39;
-  display: flex;
-  flex-direction: row;
 }
 
 #infor img {
@@ -592,7 +593,7 @@ footer hr,
 }
 
 #infor-mobile {
-  padding-left: 2rem;
+  padding: 2rem;
 }
 
 footer #infor h1 {
@@ -604,6 +605,22 @@ footer #infor p {
   color: white;
 }
 
+.top-work h2 {
+  color: #dc3545;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.divider {
+  border: 1px solid gray;
+  width: 10%;
+  margin-left: 0;
+}
+
+.works-desktop hr {
+  border: 1px solid red;
+  width: 20%;
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -676,8 +693,7 @@ footer #infor p {
     left: 2.1vw;
   }
 
-  #top-work p,
-  #top-work ul li {
+  .top-work p {
     font-size: 1.5vw;
   }
 
@@ -703,7 +719,7 @@ footer #infor p {
     flex-direction: column;
     position: relative;
     margin: 0 auto;
-    background: url("./img/three-men-standing-near-waterfalls-wallpaper-2880x1620_52.jpg");
+    background: url("./img/three-men-standing-near-waterfalls-wallpaper-2880x1620_52.jpg") center no-repeat;
   }
 
   .intro .intro-text {
@@ -748,6 +764,7 @@ footer #infor p {
 
   section.works {
     margin: 0 auto;
+    padding: 2rem;
   }
 
   .works .normal:hover .hover {
@@ -771,12 +788,7 @@ footer #infor p {
     flex-direction: column;
   }
 
-  .works-desktop hr {
-    border: 1px solid red;
-    width: 20%;
-  }
-
-  #top-work {
+  .top-work {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -843,7 +855,7 @@ footer #infor p {
     cursor: pointer;
   }
 
-  #top-work h1 {
+  .top-work h1 {
     font-size: 3vw;
     text-align: left;
   }
@@ -882,7 +894,7 @@ footer #infor p {
     transition: padding 1s;
   }
 
-  #top-work button {
+  .top-work button {
     width: 15vw;
     font-size: 1.8vw;
   }
@@ -958,6 +970,10 @@ footer #infor p {
     flex-direction: row;
   }
 
+  .about #programs .program {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
   footer #infor p {
     white-space: pre;
   }
@@ -966,10 +982,20 @@ footer #infor p {
     display: flex;
     flex-direction: row;
     padding-left: 0;
+    justify-content: space-between;
+  }
+
+  #footer-info {
+    display: flex;
+    flex-direction: row;
   }
 
   #infor img {
-    height: 60%;
     width: 15%;
+    height: 40%;
+  }
+
+  .menu-close {
+    display: none;
   }
 }

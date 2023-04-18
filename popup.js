@@ -1,8 +1,90 @@
+/* Header */
+let appHeader = `
+<nav>
+<div class="navbar">
+    <div class="logo">
+        <h1 class="nav-heading" aria-label="AISRC" tabindex="1"><a href="#intro">AISRC</a></h1>
+    </div>
+    <button type="button" class="menu-close" aria-controls="menu"><img src="./img/close-icon.png" />
+    </button>
+    <button type="button" id="toggle" class="toggle" aria-controls="menu">
+        <span class="sr-only">Menu</span>
+    </button>
+    <ul id="menu" class="menu-inactive">
+        <li>
+            <a class="nav-item" href="./about.html" tabindex="3">About</a>
+        </li>
+        <li>
+            <a class="nav-item" href="#" tabindex="4">Agenda</a>
+        </li>
+        <li>
+            <a class="nav-item" href="#" tabindex="5">Join</a>
+        </li>
+        <li>
+            <a class="nav-item" href="#" tabindex="6">Contact</a>
+        </li>
+    </ul>
+</div>
+</nav>
+
+`;
+document.getElementById("app-header").innerHTML = appHeader;
+
+/* Footer */
+let appFooter = `
+
+<div id="partners">
+<h1>Partners</h1>
+<hr />
+<ul>
+    <li>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" tabindex="20"><img
+                src="./img/github-white.png" alt="github-icon" /></a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" tabindex="21"><img
+                src="./img/linkedin-white.png" alt="linkedin-icon" /></a>
+    </li>
+    <li>
+        <a href="https://www.angellist.com/" target="_blank" tabindex="22"><img
+                src="./img/angellist-white.png" alt="angellist-icon" /></a>
+    </li>
+    <li>
+        <a href="https://twitter.com/" target="_blank" tabindex="23"><img src="./img/twitter-white.png"
+                alt="twitter-icon" /></a>
+    </li>
+    <li>
+        <a href="https://medium.com/" target="_blank" tabindex="24"><img src="./img/medium-white.png"
+                alt="medium-icon" /></a>
+    </li>
+</ul>
+</div>
+<div id="infor">
+<div id="infor-mobile">
+<div id="footer-info">
+    <img src="./img/logo2.png" alt="AISRC Logo" />
+    <div id="footer-info-text">
+        <h1>AISRC</h1>
+        <p>Annual International Science Research Conference</p>
+    </div>
+</div>
+    <p>
+        © AISRC 2023<br />
+        Right Reserved<br />
+        Since 1997 <br />
+        Contact: aisrc@question.org
+    </p>
+
+</div>
+</div>
+`;
+document.getElementById("app-footer").innerHTML = appFooter;
+
+/* Feature Speakers */
 const data = [{
     name: 'Neha Kapoor',
     title: 'Researcher at QNN',
-    description: `2022 World Unbelievable Science Innovation
-    Award Nominee, 2022 Nopel interdisciplinary Research Award.`,
+    description: `2022 Nopel interdisciplinary Research Award.`,
     image: './img/p1.jpeg',
   },
   
@@ -33,8 +115,7 @@ const data = [{
     name: 'Jasmine Ng',
     title: 'Director, TrAnsMe in New York',
     description: `PhD at University College London, now work in 
-    NASA, founder of TrAnsMe to promote transgender identity for
-    Asian.`,
+    NASA.`,
     image: './img/p5.jpeg',
   },
   
@@ -50,7 +131,7 @@ const data = [{
   const normalDiv = document.getElementById('div-container');
   for (let j = 0; j < data.length; j += 1) {
     normalDiv.innerHTML += `
-    <div id="top-work">
+    <div class="top-work">
     <div class="img-container">
       <img src="${data[j].image}" alt="Art Selection Project Image" />
       </div>
@@ -62,6 +143,7 @@ const data = [{
           ${data[j].title}
           
           </h2>
+          <hr class="divider" />
           <p>
           ${data[j].description}
           </p>
