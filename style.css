@@ -705,10 +705,6 @@ footer #infor p {
     border-radius: 35%;
   }
 
-  #menu li:last-child {
-    display: flex;
-  }
-
   .wrapper {
     display: flex;
     flex-direction: column;
