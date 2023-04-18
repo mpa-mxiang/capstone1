@@ -336,6 +336,7 @@ footer ul {
 
 .intro #address {
   border: none;
+  margin-top: 0;
 }
 
 footer {
@@ -512,7 +513,6 @@ footer {
   background: #1c1a19;
   width: 100%;
   padding: 3rem 0;
-  margin-top: -15vw;
 }
 
 .about .brief {
@@ -706,6 +706,7 @@ footer #infor p {
     flex-direction: column;
     position: relative;
     margin: 0 auto;
+    background: url("./img/three-men-standing-near-waterfalls-wallpaper-2880x1620_52.jpg");
   }
 
   .intro .intro-text {
