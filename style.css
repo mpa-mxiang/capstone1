@@ -696,10 +696,6 @@ footer #infor p {
     display: flex;
   }
 
-  .img-container img {
-    width: 48vw;
-  }
-
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -718,10 +714,7 @@ footer #infor p {
   }
 
   .works-desktop h1 {
-    display: inline-block;
-    white-space: nowrap;
     font-size: 3vw;
-    padding-left: 6vw;
   }
 
   .text-div h1 {
@@ -777,14 +770,12 @@ footer #infor p {
   .works-desktop {
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
 
   .works-desktop hr {
-    display: inline-block;
-    width: 100%;
-    flex-grow: 1;
-    margin-right: 11.1%;
-    margin-left: 2.4%;
+    border: 1px solid red;
+    width: 20%;
   }
 
   #top-work {
@@ -909,8 +900,8 @@ footer #infor p {
 
   #div-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
     align-self: center;
     margin-top: 1rem;
   }
