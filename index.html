@@ -15,7 +15,32 @@
 </head>
 
 <body>
-    <header id="app-header"></header>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1 class="nav-heading" aria-label="AISRC" tabindex="1"><a href="./index.html">AISRC</a></h1>
+            </div>
+            <button type="button" class="menu-close" aria-controls="menu"><img src="./img/close-icon.png" />
+            </button>
+            <button type="button" id="toggle" class="toggle" aria-controls="menu">
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul id="menu" class="menu-inactive">
+                <li>
+                    <a class="nav-item" href="./about.html" tabindex="3">About</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="4">Agenda</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="5">Join</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="6">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
 
     <div id="wrapper">
 

@@ -1,37 +1,5 @@
-/* Header */
-let appHeader = `
-<nav>
-<div class="navbar">
-    <div class="logo">
-        <h1 class="nav-heading" aria-label="AISRC" tabindex="1"><a href="#intro">AISRC</a></h1>
-    </div>
-    <button type="button" class="menu-close" aria-controls="menu"><img src="./img/close-icon.png" />
-    </button>
-    <button type="button" id="toggle" class="toggle" aria-controls="menu">
-        <span class="sr-only">Menu</span>
-    </button>
-    <ul id="menu" class="menu-inactive">
-        <li>
-            <a class="nav-item" href="./about.html" tabindex="3">About</a>
-        </li>
-        <li>
-            <a class="nav-item" href="#" tabindex="4">Agenda</a>
-        </li>
-        <li>
-            <a class="nav-item" href="#" tabindex="5">Join</a>
-        </li>
-        <li>
-            <a class="nav-item" href="#" tabindex="6">Contact</a>
-        </li>
-    </ul>
-</div>
-</nav>
-
-`;
-document.getElementById("app-header").innerHTML = appHeader;
-
 /* Footer */
-let appFooter = `
+const appFooter = `
 
 <div id="partners">
 <h1>Partners</h1>
@@ -78,59 +46,59 @@ let appFooter = `
 </div>
 </div>
 `;
-document.getElementById("app-footer").innerHTML = appFooter;
+document.getElementById('app-footer').innerHTML = appFooter;
 
 /* Feature Speakers */
 const data = [{
-    name: 'Neha Kapoor',
-    title: 'Researcher at QNN',
-    description: `2022 Nopel interdisciplinary Research Award.`,
-    image: './img/p1.jpeg',
-  },
-  
-  {
-    name: 'Grace Vanderbilt',
-    title: 'Founder, WinS at Melboure Information University',
-    description: `2022 Most Outstanding Women in STEM Award, researcher
-    in psychology.`,
-    image: './img/p2.jpeg',
-  },
-  
-  {
-    name: 'Aaliyah Williams',
-    title: 'Director, BSS at Melboure Information University',
-    description: `Biochemical professor at TMI
-    with research field of protein structure.`,
-    image: './img/p3.jpeg',
-  },
-  
-  {
-    name: 'Nathan Adams',
-    title: 'CEO, Human Immnune Porject, Harvard.M.C',
-    description: `One of the founder for HIP, bitomedical researcher.`,
-    image: './img/p4.jpeg',
-  },
-  
-  {
-    name: 'Jasmine Ng',
-    title: 'Director, TrAnsMe in New York',
-    description: `PhD at University College London, now work in 
-    NASA.`,
-    image: './img/p5.jpeg',
-  },
-  
-  {
-    name: 'Jean Fitzgerald',
-    title: 'Head Manager, ODiSsey',
-    description: `2022 Most Inspiring People Award, popular children
-    author for science reading.`,
-    image: './img/p6.jpeg',
-  },
+  name: 'Neha Kapoor',
+  title: 'Researcher at QNN',
+  description: '2022 Nopel interdisciplinary Research Award.',
+  image: './img/p1.jpeg',
+},
 
-  ];
-  const normalDiv = document.getElementById('div-container');
-  for (let j = 0; j < data.length; j += 1) {
-    normalDiv.innerHTML += `
+{
+  name: 'Grace Vanderbilt',
+  title: 'Founder, WinS at Melboure Information University',
+  description: `2022 Most Outstanding Women in STEM Award, researcher
+    in psychology.`,
+  image: './img/p2.jpeg',
+},
+
+{
+  name: 'Aaliyah Williams',
+  title: 'Director, BSS at Melboure Information University',
+  description: `Biochemical professor at TMI
+    with research field of protein structure.`,
+  image: './img/p3.jpeg',
+},
+
+{
+  name: 'Nathan Adams',
+  title: 'CEO, Human Immnune Porject, Harvard.M.C',
+  description: 'One of the founder for HIP, bitomedical researcher.',
+  image: './img/p4.jpeg',
+},
+
+{
+  name: 'Jasmine Ng',
+  title: 'Director, TrAnsMe in New York',
+  description: `PhD at University College London, now work in 
+    NASA.`,
+  image: './img/p5.jpeg',
+},
+
+{
+  name: 'Jean Fitzgerald',
+  title: 'Head Manager, ODiSsey',
+  description: `2022 Most Inspiring People Award, popular children
+    author for science reading.`,
+  image: './img/p6.jpeg',
+},
+
+];
+const normalDiv = document.getElementById('div-container');
+for (let j = 0; j < data.length; j += 1) {
+  normalDiv.innerHTML += `
     <div class="top-work">
     <div class="img-container">
       <img src="${data[j].image}" alt="Art Selection Project Image" />
@@ -150,4 +118,4 @@ const data = [{
       </div>
     </div>
         `;
-  }
+}

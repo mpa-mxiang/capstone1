@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is Jiachun's Profolio Website" />
-    <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,17 +15,41 @@
 </head>
 
 <body>
-    <header id="app-header">
-    </header>
-    <section class="intro" id="intro" tabindex="7">
-        <div class="intro-text">
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1 class="nav-heading" aria-label="AISRC" tabindex="1"><a href="./index.html">AISRC</a></h1>
+            </div>
+            <button type="button" class="menu-close" aria-controls="menu"><img src="./img/close-icon.png" />
+            </button>
+            <button type="button" id="toggle" class="toggle" aria-controls="menu">
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul id="menu" class="menu-inactive">
+                <li>
+                    <a class="nav-item" href="./index.html" tabindex="3">Home</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="4">Agenda</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="5">Join</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="6">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    <section class="contact" id="contact" tabindex="7">
+        <div class="contact-text">
 
             <h1 aria-label="Annual International Science Research Conference 2023" class="text-bg fw-bold p-1">
                 Annual International
                 <br />
                 Science Research Conference 2023
             </h1>
-            <hr />
+            <hr class="about-hr" />
             <p aria-label="The International Conference brings together the community of experts, academics, and activists who 
             comprise but not limited, people support LGBTQIA+ group and different races every year.
             This year, we hope to expand our invitation list including organizations and individuals who want to 
@@ -48,7 +71,7 @@
         <div class="brief">
             <div class="about-text">
                 <h1 aria-label="About me">AISRC 2023 Logo</h1>
-                <hr />
+                <hr class="about-hr" />
                 <p aria-label="The logo of AISRC 2023 was decided through the logo competition 
                 from 8. June to 7 July.">The logo of AISRC 2023 was decided through the logo competition
                     from 8. June to 7 July.
@@ -65,7 +88,7 @@
         </div>
         <hr id="seperator" />
         <h1>See AISRC in the past</h1>
-        <hr />
+        <hr class="about-hr" />
         <p>Take a look at the most recent AISRC which took place online 
             due to COVID-19.
         </p>
