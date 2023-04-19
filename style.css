@@ -312,6 +312,7 @@ hr {
 #infor img {
   width: 20%;
   padding-top: 3%;
+  margin-left: 21vw;
 }
 
 #popup-container button img {
@@ -474,7 +475,7 @@ footer {
 /* works */
 
 .works {
-  background: #e5e5e5;
+  background: aliceblue;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -630,10 +631,24 @@ footer hr,
   background-color: #3c3a39;
   display: flex;
   flex-direction: row;
+  justify-content: s;
 }
 
 #infor-mobile {
-  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#infor-mobile p {
+  margin: 4rem 0;
+  margin-left: calc(1.275rem + 0.3vw);;
+}
+
+#footer-info-text p {
+  margin: 0 0;
 }
 
 footer #infor h1 {
@@ -752,7 +767,7 @@ footer #infor h1 {
     font-size: 2.1vw;
     color: #fff;
     font-family: "Poppins", sans-serif;
-    margin-top: -3vw;
+    margin-top: 0;
   }
 
   .top-work p {
@@ -1004,19 +1019,8 @@ footer #infor h1 {
     width: 45.5%;
   }
 
-  .form-div {
-    width: 54.5%;
-    padding: 3vw;
-  }
-
-  .form-div form {
-    gap: 6vw;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    font-size: 1.8vw;
+  .about #programs .program p {
+    text-align: center;
   }
 
   .works .normal .div-text {
@@ -1046,21 +1050,17 @@ footer #infor h1 {
     white-space: pre;
   }
 
-  footer #infor-mobile {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-    justify-content: space-between;
-  }
-
   #footer-info {
     display: flex;
     flex-direction: row;
+    margin: 5rem 0;
+    margin-right: 5rem;
   }
 
   #infor img {
     width: 15%;
-    height: 40%;
+    height: 27%;
+    margin-left: 0;
   }
 
   footer #infor h1,
@@ -1078,7 +1078,7 @@ footer #infor h1 {
   }
 
   #footer-info-text {
-    align-self: center;
-    padding: 1rem;
+    margin: -1rem 0;
+
   }
 }
