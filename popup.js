@@ -52,7 +52,7 @@ const data = [{
   name: 'Neha Kapoor',
   title: 'Researcher at QNN',
   description: '2022 Nopel interdisciplinary Research Award.',
-  image: './img/p1.jpeg',
+  image: './img/speaker1.png',
 },
 
 {
@@ -60,22 +60,22 @@ const data = [{
   title: 'Founder, WinS at Melboure Information University',
   description: `2022 Most Outstanding Women in STEM Award, researcher
     in psychology.`,
-  image: './img/p2.jpeg',
+  image: './img/speaker2.png',
 },
 
 {
-  name: 'Aaliyah Williams',
+  name: 'Ashley Williams',
   title: 'Director, BSS at Melboure Information University',
   description: `Biochemical professor at TMI
     with research field of protein structure.`,
-  image: './img/p3.jpeg',
+  image: './img/speaker3.png',
 },
 
 {
   name: 'Nathan Adams',
   title: 'CEO, Human Immnune Porject, Harvard.M.C',
   description: 'One of the founder for HIP, bitomedical researcher.',
-  image: './img/p4.jpeg',
+  image: './img/speaker4.png',
 },
 
 {
@@ -83,15 +83,15 @@ const data = [{
   title: 'Director, TrAnsMe in New York',
   description: `PhD at University College London, now work in 
     NASA.`,
-  image: './img/p5.jpeg',
+  image: './img/speaker5.png',
 },
 
 {
-  name: 'Jean Fitzgerald',
+  name: 'Sean Fitzgerald',
   title: 'Head Manager, ODiSsey',
   description: `2022 Most Inspiring People Award, popular children
     author for science reading.`,
-  image: './img/p6.jpeg',
+  image: './img/speaker6.png',
 },
 
 ];
