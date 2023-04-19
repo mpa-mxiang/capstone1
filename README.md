@@ -59,7 +59,7 @@ All of above can be viewed in mobile and desktop responsively.
 
 ### Live Demo <a name="live-demo"></a>
 
-- https://mpa-mxiang.github.io/profolio2/
+- https://mpa-mxiang.github.io/capstone1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +88,7 @@ So make sure you have VS code installed beforehead, you call install VS code thr
 Clone this repository to your desired folder in your laptop:
 
   cd "your-folder-name"
-  git clone git@github.com:https://github.com/mpa-mxiang/Hello-Microverse.git
+  git clone git@github.com:https://github.com/mpa-mxiang/capstone1.git
 
 
 ### Usage
