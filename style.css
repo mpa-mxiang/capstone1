@@ -370,7 +370,7 @@ footer #infor p {
   font-weight: 500;
   color: white;
   text-align: left;
-  font-size: calc(0.6rem + .6vw);
+  font-size: calc(0.6rem + 0.6vw);
 }
 
 #menu {
@@ -679,7 +679,7 @@ footer #infor h1 {
   .top-brown-text {
     margin: auto 0.5rem;
     padding: 0.25rem;
-    font-size: calc(1.275rem + .3vw);
+    font-size: calc(1.275rem + 0.3vw);
   }
 
   .top-brown-text a {
