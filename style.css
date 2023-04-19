@@ -1070,6 +1070,7 @@ footer #infor h1 {
     margin-right: 1rem;
     width: 21vw;
     height: 30vw;
+    flex-direction: column;
   }
 
   #footer-info-text {
