@@ -65,7 +65,7 @@ All of above can be viewed in mobile and desktop responsively.
 
 ### Video Presentation <a name="video-presentation"></a>
 
-- https://mpa-mxiang.github.io/profolio2/
+- https://www.loom.com/share/84500089fa834039b3815f9e19b19357
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
