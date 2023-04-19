@@ -321,10 +321,11 @@ hr {
   border: 1px solid white;
 }
 
-#top-work p {
+.top-work p {
   font-family: "Inter", sans-serif;
   line-height: 1.5em;
   color: #091e42;
+  text-align: left;
 }
 
 footer #infor p {
@@ -382,13 +383,6 @@ footer #infor p {
 
 #menu li a {
   color: hsla(40, 100%, 94%, 1);
-}
-
-#top-work ul li {
-  box-sizing: border-box;
-  border: 1px solid #8993a4;
-  align-items: center;
-  padding: 0.75em 0.75em;
 }
 
 #popup-container ul li {
@@ -480,14 +474,15 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0 1.5rem;
+  padding-bottom: 3rem;
 }
 
-#top-work {
+.top-work {
   display: flex;
   flex-direction: column;
 }
 
-#top-work h1 {
+.top-work h1 {
   color: #091e42;
 }
 
@@ -568,30 +563,6 @@ footer {
   flex-direction: row;
 }
 
-.works .normal .hover-btn {
-  position: absolute;
-  bottom: 1.5%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 0.6em 4em;
-  white-space: nowrap;
-  margin-bottom: -0.9em;
-  font-size: 6vw;
-}
-
-#top-work ul {
-  margin-left: -2.7rem;
-  gap: 12px;
-}
-
-.works .normal {
-  position: relative;
-  margin: 2.4vh 1.2vw;
-  margin-bottom: 24px;
-}
-
 /* about */
 .about {
   background: #1c1a19;
@@ -669,6 +640,18 @@ footer #infor h1 {
   white-space: pre;
 }
 
+.divider {
+  width: 10%;
+  margin-left: 0;
+  border:1px solid red;
+}
+
+.top-work h2 {
+  font-size: 4vw;
+  font-style: italic;
+  color: red;
+}
+
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
@@ -744,8 +727,8 @@ footer #infor h1 {
     left: 2.1vw;
   }
 
-  #top-work p,
-  #top-work ul li {
+  .top-work p,
+  .top-work ul li {
     font-size: 1.5vw;
   }
 
@@ -792,6 +775,10 @@ footer #infor h1 {
     color: white;
     text-align: center;
     font-family: "Lato", sans-serif;
+  }
+
+  .top-work h2 {
+    font-size: 1rem;
   }
 
   .intro .intro-text h1 {
@@ -855,7 +842,7 @@ footer #infor h1 {
     width: 20%;
   }
 
-  #top-work {
+  .top-work {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -915,7 +902,7 @@ footer #infor h1 {
     cursor: pointer;
   }
 
-  #top-work h1 {
+  .top-work h1 {
     font-size: 3vw;
     text-align: left;
   }
@@ -952,11 +939,6 @@ footer #infor h1 {
     font-size: 1.5vw;
     bottom: 1vw;
     transition: padding 1s;
-  }
-
-  #top-work button {
-    width: 15vw;
-    font-size: 1.8vw;
   }
 
   .img-container {
@@ -1055,4 +1037,5 @@ footer #infor h1 {
   footer #infor p{
     text-align: left;
   }
+
 }
