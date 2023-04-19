@@ -648,7 +648,7 @@ footer #infor h1 {
 }
 
 .top-brown-nav {
-  width: 100%;
+  width: 150%;
   padding: 0.1rem 10%;
   background-color: rgba(48, 48, 48, 48);
 }
@@ -779,7 +779,6 @@ footer #infor h1 {
   section.intro {
     display: flex;
     flex-direction: column;
-    position: relative;
     margin: 0 auto;
     background: url("./img/three-men-standing-near-waterfalls-wallpaper-2880x1620_52.jpg");
   }
@@ -983,6 +982,10 @@ footer #infor h1 {
     grid-template-rows: repeat(3, auto);
     align-self: center;
     margin-top: 1rem;
+  }
+
+  header {
+    position: fixed;
   }
 
   #normal {
