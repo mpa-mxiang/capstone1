@@ -42,7 +42,6 @@ const appFooter = `
         Since 1997 <br />
         Contact: aisrc@question.org
     </p>
-
 </div>
 </div>
 `;

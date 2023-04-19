@@ -137,7 +137,6 @@ a {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 6vw;
-  padding-right: 29.1vw;
 }
 
 .contact p {
@@ -405,7 +404,6 @@ footer #infor p {
 
 .logo h1 {
   padding-left: 20px;
-  margin: 0;
   color: #fff;
 }
 
@@ -1040,10 +1038,21 @@ footer #infor h1 {
     display: flex;
     flex-direction: row;
     padding-left: 0;
+    justify-content: space-between;
+  }
+
+  #footer-info {
+    display: flex;
+    flex-direction: row;
   }
 
   #infor img {
-    height: 60%;
     width: 15%;
+    height: 40%;
+  }
+
+  footer #infor h1,
+  footer #infor p{
+    text-align: left;
   }
 }
