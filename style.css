@@ -351,6 +351,12 @@ footer #infor p {
   white-space: nowrap;
 }
 
+.top-work h2 {
+  font-size: 4vw;
+  font-style: italic;
+  color: red;
+}
+
 .about #programs .program h2 {
   color: #ec5242;
   font-size: calc(1.325rem + 0.9vw);
@@ -460,15 +466,8 @@ footer {
   border-top: 1px solid #dfe1e6;
 }
 
-.works .normal h1 {
-  position: absolute;
-  top: 10.2%;
-  left: 16px;
-  color: white;
-  font-family: "Crete Round", sans-serif;
-  font-size: 8vw;
-  white-space: break-spaces;
-  text-align: left;
+.top-work h1 {
+  color: #091e42;
 }
 
 /* works */
@@ -485,10 +484,6 @@ footer {
 .top-work {
   display: flex;
   flex-direction: column;
-}
-
-.top-work h1 {
-  color: #091e42;
 }
 
 .close {
@@ -651,12 +646,6 @@ footer #infor h1 {
   border: 1px solid red;
 }
 
-.top-work h2 {
-  font-size: 4vw;
-  font-style: italic;
-  color: red;
-}
-
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
@@ -726,14 +715,7 @@ footer #infor h1 {
     margin-top: -3vw;
   }
 
-  .works .normal p {
-    top: -16vw;
-    font-size: 1.21vw;
-    left: 2.1vw;
-  }
-
-  .top-work p,
-  .top-work ul li {
+  .top-work p {
     font-size: 1.5vw;
   }
 
@@ -784,6 +766,11 @@ footer #infor h1 {
 
   .top-work h2 {
     font-size: 1rem;
+  }
+
+  .top-work h1 {
+    font-size: 3vw;
+    text-align: left;
   }
 
   .intro .intro-text h1 {
@@ -905,11 +892,6 @@ footer #infor h1 {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
-
-  .top-work h1 {
-    font-size: 3vw;
-    text-align: left;
   }
 
   .form-div button {
