@@ -139,7 +139,7 @@ If you like this project please star this project to show your support, thank yo
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and all of people helped me through the project to make this project success.
+I would like to thank Cindy Shin, the author of the original design, provides such fantastic creative common's design with Creative Common License from Behance.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
