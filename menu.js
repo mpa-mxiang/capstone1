@@ -8,7 +8,7 @@ function toggleMenu() {
   if (menu.className === 'menu-inactive') {
     menu.className = ('menu-active');
     toggle.className = ('toggle-active');
-    closeBtn.style.display = 'block';
+    closeBtn.style.display = 'flex';
   } else {
     menu.className = ('menu-inactive');
     toggle.className = ('');
