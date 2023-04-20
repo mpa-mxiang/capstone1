@@ -103,13 +103,13 @@ for (let j = 0; j < data.length; j += 1) {
       <img src="${data[j].image}" alt="Art Selection Project Image" />
       </div>
       <div class="text-container">
-          <h1 aria-label="Profesional Art Printing Data">${data[j].name}</h1>
-          <h2 aria-label="A daily selection of privately personalized reads;
+          <h2 class="top-work-h1" aria-label="Profesional Art Printing Data">${data[j].name}</h2>
+          <h3 class="top-work-h2" aria-label="A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the
           industry's standard" class="hover">
           ${data[j].title}
           
-          </h2>
+          </h3>
           <hr class="divider" />
           <p>
           ${data[j].description}

@@ -347,7 +347,7 @@ hr {
   color: #091e42;
   text-align: left;
   width: 80%;
-  font-size: clamp(0.6rem, 0.5rem + 1vw, 4rem);
+  font-size: calc(0.5rem + 1vw);
 }
 
 #infor-mobile p {
@@ -364,7 +364,11 @@ hr {
   padding-right: 1rem;
 }
 
-.intro h2 {
+#div-container {
+  padding: 3rem;
+}
+
+.intro-h2 {
   color: #fff5e1;
   font-family: "Roboto", sans-serif;
   font-size: 7.5vw;
@@ -372,13 +376,13 @@ hr {
   white-space: nowrap;
 }
 
-.top-work h2 {
+.top-work-h2 {
   font-size: 4vw;
   font-style: italic;
   color: red;
 }
 
-.about #programs .program h2 {
+.about #programs .program-h2 {
   color: #ec5242;
   font-size: calc(1.325rem + 0.9vw);
   text-align: center;
@@ -453,12 +457,12 @@ footer ul {
   margin-left: -9vw;
 }
 
-.works h1 {
+.works-h1 {
   text-align: center;
   font-family: "Lato", sans-serif;
 }
 
-.intro h1 {
+.intro-h1 {
   color: #ff6800;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -467,7 +471,7 @@ footer ul {
   align-self: center;
 }
 
-.intro h3 {
+.intro-h3 {
   color: #fff;
   font-family: "Lato", sans-serif;
   margin-top: 0;
@@ -481,9 +485,9 @@ footer ul {
   text-align: left;
 }
 
-.top-work h1 {
+.top-work-h1 {
   color: #091e42;
-  font-size: clamp(0.9rem, 0.5rem + 4vw, 5rem);
+  font-size: calc(0.5rem + 4vw);
   margin: 0;
   text-align: left;
 }
@@ -622,12 +626,6 @@ footer hr,
   width: 100%;
 }
 
-.about h1 {
-  color: white;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-}
-
 #partners h1 {
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -754,6 +752,7 @@ footer #infor h1 {
   .navbar {
     justify-content: flex-end;
     background-color: #fff;
+    position: relative;
   }
 
   #menu {
@@ -824,6 +823,16 @@ footer #infor h1 {
     text-align: left;
   }
 
+  #infor-mobile p {
+    margin-right: 1rem;
+  }
+
+  .about-h1 {
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
   .intro .intro-text h1 {
     font-size: 5.1vw;
     white-space: nowrap;
@@ -844,6 +853,11 @@ footer #infor h1 {
     margin-top: -27vw;
     gap: 1.5vw;
     margin-left: -1vw;
+  }
+
+  .img-container img {
+    width: 10rem;
+    height: auto;
   }
 
   .intro ul li img {
@@ -987,10 +1001,6 @@ footer #infor h1 {
     z-index: 99999;
   }
 
-  .navbar {
-    position: relative;
-  }
-
   #normal {
     width: 27vw;
   }
@@ -1005,10 +1015,6 @@ footer #infor h1 {
 
   .text-div {
     width: 45.5%;
-  }
-
-  #infor-mobile p {
-    margin-right: 1rem;
   }
 
   footer #infor p {
@@ -1072,16 +1078,12 @@ footer #infor h1 {
     margin: -1rem 0;
   }
 
-  .img-container img {
-    width: 10rem;
-    height: auto;
-  }
-
-  #infor-mobile p {
-    margin: 0;
-  }
-
   .contact-text {
     margin-left: 0;
+  }
+
+  .intro-h2 {
+    font-size: 3vw;
+    margin-top: 0;
   }
 }
