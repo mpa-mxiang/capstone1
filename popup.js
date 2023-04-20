@@ -7,22 +7,22 @@ const appFooter = `
 <ul>
     <li>
         <a href="https://github.com" target="_blank" rel="noopener noreferrer" tabindex="20"><img
-                src="./img/github-white.png" alt="github-icon" /></a>
+                src="./img/github.png" alt="github-icon" /></a>
     </li>
     <li>
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" tabindex="21"><img
-                src="./img/linkedin-white.png" alt="linkedin-icon" /></a>
+                src="./img/Icon - Linkedin.png" alt="linkedin-icon" /></a>
     </li>
     <li>
         <a href="https://www.angellist.com/" target="_blank" tabindex="22"><img
-                src="./img/angellist-white.png" alt="angellist-icon" /></a>
+                src="./img/yeah.png" alt="angellist-icon" /></a>
     </li>
     <li>
-        <a href="https://twitter.com/" target="_blank" tabindex="23"><img src="./img/twitter-white.png"
+        <a href="https://twitter.com/" target="_blank" tabindex="23"><img src="./img/twitter.png"
                 alt="twitter-icon" /></a>
     </li>
     <li>
-        <a href="https://medium.com/" target="_blank" tabindex="24"><img src="./img/medium-white.png"
+        <a href="https://medium.com/" target="_blank" tabindex="24"><img src="./img/m.png"
                 alt="medium-icon" /></a>
     </li>
 </ul>
@@ -30,7 +30,7 @@ const appFooter = `
 <div id="infor">
 <div id="infor-mobile">
 <div id="footer-info">
-    <img src="./img/logo2.png" alt="AISRC Logo" />
+    <img src="./img/logo3.png" alt="AISRC Logo" />
     <div id="footer-info-text">
         <h1>AISRC</h1>
         <p>Annual International Science Research Conference</p>
@@ -52,7 +52,7 @@ const data = [{
   name: 'Neha Kapoor',
   title: 'Researcher at QNN',
   description: '2022 Nopel interdisciplinary Research Award.',
-  image: './img/speaker1.png',
+  image: './img/s1.jpg',
 },
 
 {
@@ -60,7 +60,7 @@ const data = [{
   title: 'Founder, WinS at Melboure Information University',
   description: `2022 Most Outstanding Women in STEM Award, researcher
     in psychology.`,
-  image: './img/speaker2.png',
+  image: './img/s2.jpg',
 },
 
 {
@@ -68,14 +68,14 @@ const data = [{
   title: 'Director, BSS at Melboure Information University',
   description: `Biochemical professor at TMI
     with research field of protein structure.`,
-  image: './img/speaker3.png',
+  image: './img/s3.jpg',
 },
 
 {
   name: 'Nathan Adams',
   title: 'CEO, Human Immnune Porject, Harvard.M.C',
   description: 'One of the founder for HIP, bitomedical researcher.',
-  image: './img/speaker4.png',
+  image: './img/s4.jpg',
 },
 
 {
@@ -83,7 +83,7 @@ const data = [{
   title: 'Director, TrAnsMe in New York',
   description: `PhD at University College London, now work in 
     NASA.`,
-  image: './img/speaker5.png',
+  image: './img/s5.jpg',
 },
 
 {
@@ -91,7 +91,7 @@ const data = [{
   title: 'Head Manager, ODiSsey',
   description: `2022 Most Inspiring People Award, popular children
     author for science reading.`,
-  image: './img/speaker6.png',
+  image: './img/s6.jpg',
 },
 
 ];
