@@ -140,10 +140,10 @@ a {
 }
 
 .contact p {
-  color: brown;
+  color: black;
   font-family: "Poppins", sans-serif;
   border: 1px solid white;
-  background-color: wheat;
+  background-color: white;
   margin: auto;
   width: 80%;
 }
@@ -487,7 +487,7 @@ footer ul {
 
 .top-work {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .close {
@@ -653,6 +653,25 @@ footer #infor h1 {
   color: white;
   text-align: center;
   font-family: "Lato", sans-serif;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  position: relative;
+  z-index: 777;
+}
+
+.img-container::before {
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: -24px;
+  width: 5rem;
+  height: 5rem;
+  background-image: url(./img/chess.jpg);
 }
 
 #partners {
@@ -976,6 +995,7 @@ footer #infor h1 {
   header {
     position: fixed;
     width: 100%;
+    z-index: 99999;
   }
 
   #normal {
