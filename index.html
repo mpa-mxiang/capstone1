@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" role="main">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Jiachun's Profolio Website" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+
+    <title>AISRC | Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="top-brown-nav">
+            <ul class="top-brown">
+                <li class="top-brown-img">
+                    <a href="#">
+                        <img src="./img/twitter-icon.svg" alt="twitter">
+                    </a>
+                </li>
+                <li class="top-brown-img">
+                    <a href="#">
+                        <img src="./img/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li class="top-brown-text">
+                    <a href="#">
+                        English
+                    </a>
+                </li>
+                <li class="top-brown-text">
+                    <a href="#" class="text-white">
+                        My Page
+                    </a>
+                </li>
+                <li class="top-brown-text">
+                    <a href="#">
+                        Log out
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1 class="nav-heading" aria-label="AISRC" tabindex="1"><a href="./index.html">AISRC</a></h1>
+            </div>
+            <button type="button" id="menu-close" class="menu-close" aria-controls="menu"><span class="menu-close-x">X</span>
+            </button>
+            <button type="button" id="toggle" class="toggle" aria-controls="menu">
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul id="menu" class="menu-inactive">
+                <li>
+                    <a class="nav-item" href="./about.html" tabindex="3">About</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="4">Agenda</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="5">Join</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#" tabindex="6">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div id="wrapper">
+
+        <section class="intro" id="intro" tabindex="7">
+            <div class="intro-text">
+
+                <h2 class="intro-h1" aria-label="Annual International Science Research Conference 2023" class="text-bg fw-bold p-1">
+                    Annual International
+                    <br />
+                    Science Research Conference 2023
+                </h2>
+                <h3 class="intro-h2" aria-label="Hello! Sharing world">"Hello! Sharing world"</h2>
+                <p aria-label="I can help you build a product , feature or website Look through some of
+            my work and experience! If you like what you see and have a project you
+            need coded, don’t hestiate to contact me.">
+                    A joyful celebreation believing in the value of openness and sharing creating a
+                    positive change with people from over 80 countries is taking place in February, in Australia.
+                </p>
+                <h4 class="intro-h3">
+                    2023.02.29-31
+                </h4>
+                <p id="address">
+                    @ Melboure Information University, Mcdonalds Building
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="about" id="about">
+            <h2 class="about-h1">Main Programs</h2>
+            <hr />
+            <div id="programs" aria-label="Lecture">
+                <div class="program">
+                    <img src="./img/lecture.png" alt="lecture Logo" />
+                    <h3 class="program-h2">Lecture</h3>
+                    <p>Listen to the speakers from various countries
+                        about the messages of sharing and opening.
+                    </p>
+                </div>
+                <div class="program">
+                    <img src="./img/route.png" alt="route Logo" />
+                    <h3 class="program-h2">Route</h3>
+                    <p>Easy to find in downtown Melboure with
+                        lots of attractions to visit during your
+                        spare time.
+                    </p>
+                </div>
+                <div class="program">
+                    <img src="./img/hotel.png" alt="hotel Logo" />
+                    <h3 class="program-h2">Hospitality</h3>
+                    <p>Lots of choices of outstanding hotels
+                        to satisfy your needs during Conference.
+                    </p>
+                </div>
+                <div class="program">
+                    <img src="./img/workshop.png" alt="workshop Logo" />
+                    <h3 class="program-h2">Workshop</h3>
+                    <p>Over 50 different workshops can be found in-person and
+                        online to learn from different field of science research
+                        at the cutting edge this year.
+                    </p>
+                </div>
+                <div class="program">
+                    <img src="./img/youtube.png" alt="youtube Logo" />
+                    <h3 class="program-h2">Lecture</h3>
+                    <p>Cannot come in-person? No worries! We provide stream live
+                        on Youtube and you can interact with us during our scheduled
+                        Conference time.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="works" id="works">
+                <h2 class="works-h1" aria-label="My Recent works">Featured Speakers</h2>
+                <hr />
+            <div id="div-container"></div>
+        </section>
+
+
+        <footer id="app-footer">
+        </footer>
+
+    </div>
+    <script src="menu.js"></script>
+    <script async src="popup.js"></script>
+</body>
+
+</html>
