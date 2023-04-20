@@ -332,11 +332,12 @@ hr {
   line-height: 1.5em;
   color: #091e42;
   text-align: left;
+  width: 80%;
+  font-size: clamp(0.6rem, 0.5rem + 1vw, 4rem);
 }
 
 #infor-mobile p {
-  margin: 4rem 0;
-  margin-left: calc(1.275rem + 0.3vw);
+  margin: 4rem calc(1.275rem + 0.3vw);
 }
 
 #footer-info-text p {
@@ -428,6 +429,10 @@ hr {
   padding: 5rem 1rem;
 }
 
+.div-container {
+  padding: 0 3rem;
+}
+
 footer ul {
   justify-content: center;
   align-items: center;
@@ -439,11 +444,8 @@ footer ul {
 }
 
 .works h1 {
-  font-family: "Crete Round", sans-serif;
-  font-weight: 400;
-  font-size: 2em;
-  white-space: nowrap;
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .intro h1 {
@@ -471,9 +473,13 @@ footer ul {
 
 .top-work h1 {
   color: #091e42;
-  font-size: clamp(0.9rem, 1rem + 4vw, 5rem);
+  font-size: clamp(0.9rem, 0.5rem + 4vw, 5rem);
+  margin: 0;
+  text-align: left;
 }
-
+.text-container {
+  padding-left: 1rem;
+}
 /* works */
 
 .works {
@@ -481,13 +487,12 @@ footer ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 1.5rem;
-  padding-bottom: 3rem;
 }
 
 .top-work {
   display: flex;
   flex-direction: row;
+  margin: 1rem 0;
 }
 
 .close {
@@ -588,12 +593,9 @@ footer hr {
 
 /* contact */
 
-.contact form {
-  display: flex;
-  flex-direction: column;
-  gap: 39px;
-  width: 100%;
-  align-items: center;
+.img-container img {
+  width: 6rem;
+  height: auto;
 }
 
 footer hr,
@@ -626,7 +628,7 @@ footer #infor h1 {
   margin: 1rem;
 }
 
-.divider {
+.text-container .divider {
   width: 10%;
   margin-left: 0;
   border: 1px solid gray;
@@ -642,11 +644,9 @@ footer #infor h1 {
   display: none;
 }
 
-
-
-.works-desktop hr {
+.works hr {
   border: 1px solid red;
-  width: 20%;
+  width: 10%;
 }
 
 .about h1 {
@@ -668,7 +668,7 @@ footer #infor h1 {
   content: '';
   position: absolute;
   top: -18px;
-  left: -24px;
+  left: -15px;
   width: 5rem;
   height: 5rem;
   background-image: url(./img/chess.jpg);
@@ -777,10 +777,6 @@ footer #infor h1 {
     margin-top: 0;
   }
 
-  .top-work p {
-    font-size: 1.5vw;
-  }
-
   #menu li:hover {
     transform: scale(1.5);
     margin: 0;
@@ -824,7 +820,7 @@ footer #infor h1 {
   }
 
   .top-work h1 {
-    font-size: 3vw;
+    font-size: 2.4vw;
     text-align: left;
   }
 
@@ -880,9 +876,7 @@ footer #infor h1 {
   }
 
   .top-work {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 1rem;
   }
 
   #popup-container {
@@ -973,11 +967,6 @@ footer #infor h1 {
     transition: padding 1s;
   }
 
-  .img-container img {
-    width: 100px;
-    height: 150px;
-  }
-
   .text-container {
     padding-left: 0.5em;
   }
@@ -1057,7 +1046,7 @@ footer #infor h1 {
   #footer-info {
     display: flex;
     flex-direction: row;
-    margin: 5rem 1rem;
+    margin: 3rem 1rem;
   }
 
   #infor img {
@@ -1078,4 +1067,14 @@ footer #infor h1 {
   #footer-info-text {
     margin: -1rem 0;
   }
+
+  .img-container img {
+    width: 10rem;
+    height: auto;
+  }
+  
+  #infor-mobile p {
+    margin: 0;
+  }
+
 }
