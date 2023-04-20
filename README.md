@@ -65,7 +65,7 @@ All of above can be viewed in mobile and desktop responsively.
 
 ### Video Presentation <a name="video-presentation"></a>
 
-- https://www.loom.com/share/84500089fa834039b3815f9e19b19357
+- https://www.loom.com/share/503467aedc8b46a1afa4e16e7ebc4c9c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
