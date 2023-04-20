@@ -1026,7 +1026,7 @@ footer #infor h1 {
   #footer-info {
     display: flex;
     flex-direction: row;
-    margin: 5rem 0;
+    margin: 5rem 1rem;
   }
 
   #infor img {
@@ -1046,5 +1046,9 @@ footer #infor h1 {
 
   #footer-info-text {
     margin: -1rem 0;
+  }
+
+  #infor-mobile p {
+    margin-right: 1rem;
   }
 }
