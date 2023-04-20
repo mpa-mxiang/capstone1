@@ -355,7 +355,7 @@ hr {
 }
 
 #infor-mobile p {
-  margin: 0 calc(1.275rem + 0.3vw);
+  margin: 3rem calc(1.275rem + 0.3vw);
 }
 
 #footer-info-text p {
@@ -1090,5 +1090,9 @@ footer #infor-h1 {
 
   .top-work-h2 {
     font-size: 1.8vw;
+  }
+
+  #infor-mobile p {
+    margin: 0 calc(1.275rem + 0.3vw);
   }
 }
