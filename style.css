@@ -595,33 +595,6 @@ footer hr {
   align-items: center;
 }
 
-input[type="text"],
-input[type="email"] {
-  border: solid 1px #dbd8d7;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  background-color: transparent;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  color: #979493;
-  width: 80%;
-}
-
-textarea {
-  font-family: "Inter", sans-serif;
-  font-size: 1em;
-  line-height: 2.4em;
-  width: 80%;
-  height: 27vh;
-}
-
-.works .normal .div-text {
-  top: 8.4%;
-  width: 80%;
-}
-
 footer hr,
 .about hr {
   width: 10%;
@@ -639,6 +612,12 @@ footer hr,
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+}
+
+#partners h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #fff;
 }
 
 footer #infor h1 {
@@ -664,12 +643,6 @@ footer #infor h1 {
 
 #partners {
   background-color: rgba(48, 48, 48, 48);
-}
-
-#partners h1 {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
