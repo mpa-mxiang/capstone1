@@ -334,8 +334,13 @@ hr {
   text-align: left;
 }
 
-footer #infor p {
-  color: white;
+#infor-mobile p {
+  margin: 4rem 0;
+  margin-left: calc(1.275rem + 0.3vw);
+}
+
+#footer-info-text p {
+  margin: 0 0;
 }
 
 .about #programs .program img {
@@ -464,10 +469,6 @@ footer ul {
   text-align: left;
 }
 
-footer {
-  border-top: 1px solid #dfe1e6;
-}
-
 .top-work h1 {
   color: #091e42;
 }
@@ -475,7 +476,7 @@ footer {
 /* works */
 
 .works {
-  background: aliceblue;
+  background: #fff;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -623,37 +624,26 @@ textarea {
 
 footer hr,
 .about hr {
-  width: 20%;
-  border-top: 1px solid red;
+  width: 10%;
+  border: 1px solid red;
 }
 
 #infor {
-  background-color: #3c3a39;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: s;
 }
 
 #infor-mobile {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
   justify-content: space-between;
   width: 100%;
 }
 
-#infor-mobile p {
-  margin: 4rem 0;
-  margin-left: calc(1.275rem + 0.3vw);;
-}
-
-#footer-info-text p {
-  margin: 0 0;
-}
-
 footer #infor h1 {
-  color: white;
   white-space: pre;
+  margin: 1rem;
 }
 
 .divider {
@@ -670,6 +660,16 @@ footer #infor h1 {
 
 .top-brown {
   display: none;
+}
+
+#partners {
+  background-color: rgba(48, 48, 48, 48);
+}
+
+#partners h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -835,11 +835,6 @@ footer #infor h1 {
     font-weight: 400;
     padding-right: 29.1vw;
     align-self: center;
-  }
-
-  #partners h1 {
-    text-align: center;
-    font-family: "Lato", sans-serif;
   }
 
   .intro h2 {
@@ -1019,6 +1014,15 @@ footer #infor h1 {
     width: 45.5%;
   }
 
+  footer #infor p {
+    white-space: pre;
+  }
+
+  footer #infor h1,
+  footer #infor p {
+    text-align: left;
+  }
+
   .about #programs .program p {
     text-align: center;
   }
@@ -1046,26 +1050,16 @@ footer #infor h1 {
     flex-direction: row;
   }
 
-  footer #infor p {
-    white-space: pre;
-  }
-
   #footer-info {
     display: flex;
     flex-direction: row;
     margin: 5rem 0;
-    margin-right: 5rem;
   }
 
   #infor img {
     width: 15%;
     height: 27%;
     margin-left: 0;
-  }
-
-  footer #infor h1,
-  footer #infor p {
-    text-align: left;
   }
 
   .about #programs .program {
@@ -1079,6 +1073,5 @@ footer #infor h1 {
 
   #footer-info-text {
     margin: -1rem 0;
-
   }
 }
