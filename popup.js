@@ -2,7 +2,7 @@
 const appFooter = `
 
 <div id="partners">
-<h1>Partners</h1>
+<h2 id="partners-h1">Partners</h2>
 <hr />
 <ul>
     <li>
@@ -32,7 +32,7 @@ const appFooter = `
 <div id="footer-info">
     <img src="./img/logo3.png" alt="AISRC Logo" />
     <div id="footer-info-text">
-        <h1>AISRC</h1>
+        <h2 id="infor-h1">AISRC</h2>
         <p>Annual International Science Research Conference</p>
     </div>
 </div>
