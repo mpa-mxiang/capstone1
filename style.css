@@ -832,10 +832,6 @@ footer #infor-h1 {
     text-align: left;
   }
 
-  #infor-mobile p {
-    margin-right: 1rem;
-  }
-
   .intro .intro-text h1 {
     font-size: 5.1vw;
     white-space: nowrap;
@@ -1018,6 +1014,10 @@ footer #infor-h1 {
     width: 45.5%;
   }
 
+  #infor-mobile p {
+    margin: 0 calc(1.275rem + 0.3vw);
+  }
+
   footer #infor p {
     white-space: pre;
   }
@@ -1090,9 +1090,5 @@ footer #infor-h1 {
 
   .top-work-h2 {
     font-size: 1.8vw;
-  }
-
-  #infor-mobile p {
-    margin: 0 calc(1.275rem + 0.3vw);
   }
 }
