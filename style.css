@@ -7,7 +7,7 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 .sr-only {
@@ -270,7 +270,7 @@ hr {
   background-color: #3c3a39;
   height: 80px;
   width: 100%;
-  position: fixed;
+  position: relative;
   z-index: 44;
   justify-content: space-between;
 }
@@ -632,7 +632,7 @@ footer #infor h1 {
 }
 
 .top-brown-nav {
-  width: 150%;
+  width: auto;
   padding: 0.1rem 10%;
   background-color: rgba(48, 48, 48, 48);
 }
@@ -657,6 +657,7 @@ footer #infor h1 {
     display: flex;
     width: 100%;
     list-style: none;
+    gap: 0;
   }
 
   .top-brown-img {
@@ -969,6 +970,7 @@ footer #infor h1 {
 
   header {
     position: fixed;
+    width: 100%;
   }
 
   #normal {
