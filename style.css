@@ -351,7 +351,7 @@ hr {
   color: #091e42;
   text-align: left;
   width: 80%;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.35rem + 1vw);
 }
 
 #infor-mobile p {
@@ -381,7 +381,7 @@ hr {
 }
 
 .top-work-h2 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-style: italic;
   color: red;
 }
@@ -512,7 +512,7 @@ footer ul {
 .top-work {
   display: flex;
   flex-direction: row;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .close {
@@ -993,8 +993,6 @@ footer #infor-h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
     align-self: center;
-    margin-top: 1rem;
-    padding-left: 1em;
     gap: 2rem;
   }
 
@@ -1088,5 +1086,9 @@ footer #infor-h1 {
   .intro-h2 {
     font-size: 3vw;
     margin-top: 0;
+  }
+
+  .top-work-h2 {
+    font-size: 1.8vw;
   }
 }
