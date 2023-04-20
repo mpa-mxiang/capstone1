@@ -355,7 +355,7 @@ hr {
 }
 
 #infor-mobile p {
-  margin: 4rem calc(1.275rem + 0.3vw);
+  margin: 0 calc(1.275rem + 0.3vw);
 }
 
 #footer-info-text p {
@@ -675,6 +675,12 @@ footer #infor-h1 {
   background-image: url(./img/chess.jpg);
 }
 
+.about-h1 {
+  color: white;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
 #partners {
   background-color: rgba(48, 48, 48, 48);
 }
@@ -828,12 +834,6 @@ footer #infor-h1 {
 
   #infor-mobile p {
     margin-right: 1rem;
-  }
-
-  .about-h1 {
-    color: white;
-    text-align: center;
-    font-family: "Lato", sans-serif;
   }
 
   .intro .intro-text h1 {
