@@ -471,6 +471,7 @@ footer ul {
 
 .top-work h1 {
   color: #091e42;
+  font-size: clamp(0.9rem, 1rem + 4vw, 5rem);
 }
 
 /* works */
@@ -641,6 +642,19 @@ footer #infor h1 {
   display: none;
 }
 
+
+
+.works-desktop hr {
+  border: 1px solid red;
+  width: 20%;
+}
+
+.about h1 {
+  color: white;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
 #partners {
   background-color: rgba(48, 48, 48, 48);
 }
@@ -786,12 +800,6 @@ footer #infor h1 {
     padding: 0 1vw;
   }
 
-  .about h1 {
-    color: white;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-  }
-
   .top-work h2 {
     font-size: 1rem;
   }
@@ -850,11 +858,6 @@ footer #infor h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-
-  .works-desktop hr {
-    border: 1px solid red;
-    width: 20%;
   }
 
   .top-work {
@@ -951,13 +954,13 @@ footer #infor h1 {
     transition: padding 1s;
   }
 
-  .img-container {
-    padding-left: 4.2vw;
+  .img-container img {
+    width: 100px;
+    height: 150px;
   }
 
   .text-container {
-    padding-left: 3vw;
-    margin-top: -2.7vw;
+    padding-left: 0.5em;
   }
 
   #div-container {
@@ -966,6 +969,8 @@ footer #infor h1 {
     grid-template-rows: repeat(3, auto);
     align-self: center;
     margin-top: 1rem;
+    padding-left: 1em;
+    gap: 2rem;
   }
 
   header {
@@ -987,6 +992,10 @@ footer #infor h1 {
 
   .text-div {
     width: 45.5%;
+  }
+
+  #infor-mobile p {
+    margin-right: 1rem;
   }
 
   footer #infor p {
@@ -1048,9 +1057,5 @@ footer #infor h1 {
 
   #footer-info-text {
     margin: -1rem 0;
-  }
-
-  #infor-mobile p {
-    margin-right: 1rem;
   }
 }
