@@ -27,7 +27,7 @@
 
 # 📖 **Capstone project 1** <a name="about-project"></a>
 
-This is a project that build with the checking tool linter, language HTML/CSS and JavaScript to have header, footer, feature speakers in dynamic HTML, home and about page, etc.
+This is a project that build with the checking tool linter, language HTML/CSS and JavaScript to have header, footer, feature speakers with dynamic HTML, home and about page, etc.
 
 
 ## 🛠 Built With <a name="built-with">VS Code</a>
@@ -131,7 +131,7 @@ If you like to contribute, report issues, or request feature(s), please contact 
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please star this project to show your support, thank you for your support!
+If you like this project please star this project to support, thank you for your support!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
